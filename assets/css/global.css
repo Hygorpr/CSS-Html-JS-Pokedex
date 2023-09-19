@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: #f6f8fc;
+    background-color: #ffffff;
 
 }
 
@@ -18,7 +18,7 @@ body {
     padding: 1rem;
 }
 .content {
-    background-image: url('/assets/Imagens/Pokebola.png');
+    background-image: url('/Imagens/Pokebola.png');
     background-repeat: no-repeat;
     background-size: 70%;
     background-attachment: fixed;

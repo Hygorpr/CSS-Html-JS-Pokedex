@@ -1,0 +1,38 @@
+/* Fonte */
+* {
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+    /* Tamanho total */       
+}    
+
+
+body {
+    background-color: #f6f8fc;
+
+}
+
+/* Conteudo */
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+.content {
+    background-image: url('/assets/Imagens/Pokebola.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-attachment: fixed;
+}
+    /* imagem + rolamento */
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+
+
